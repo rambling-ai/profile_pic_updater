@@ -1,26 +1,26 @@
-# README.md
-
 # LinkedIn Profile Picture Updater
 
 This simple Python project allows you to automatically update your LinkedIn profile picture daily with a different picture from a specified folder. You can use it to keep your LinkedIn profile fresh and engaging with minimal effort.
 
-## Prerequisites
-
-Before you can use this project, please make sure you have the following:
-
-1. Python 3.6 or above: You can download it from [here](https://www.python.org/downloads/). To check if Python is installed and find the version, open your Terminal and type `python3 --version`. You should see the Python version number.
-
-2. Playwright for Python: This is a library used to automate the browser tasks. To install, open Terminal and type `pip3 install playwright` and press Enter. After it's installed, type `playwright install` and press Enter to install the necessary browser binaries.
-
-3. `daily_pic_update.py` and `update_profile_pic.py` scripts: Make sure these scripts are saved in the same folder.
+Warning: this tool is all in good fun and perfectly harmless, but use it at your own risk. Using automated tooling on LinkedIn could possibly get your account banned.
 
 ## Setup
 
-1. Open Terminal.
+1. Go to the project's GitHub repository at [https://github.com/rambling-ai/profile_pic_updater](https://github.com/rambling-ai/profile_pic_updater).
 
-2. Use the `cd` command to navigate to the folder where `daily_pic_update.py` and `update_profile_pic.py` scripts are located. For example, if the scripts are in a folder called `profile_updater` on your Desktop, you would type `cd ~/Desktop/profile_updater` and press Enter.
+2. Click on the `Code` button and select `Download ZIP`.
 
-3. Inside this folder, create a new folder called `pics_to_upload`. This is where you should place the pictures you want to use for your LinkedIn profile. Make sure these pictures are in either .jpg or .png format.
+3. Once the ZIP file is downloaded, extract it to a location of your choice.
+
+4. Open Terminal.
+
+5. Use the `cd` command to navigate to the extracted folder. For example, if the extracted folder is on your Desktop, you would type `cd ~/Desktop/profile_pic_updater-main` and press Enter.
+
+6. Once you're inside the folder, install Playwright by typing `python3 -m pip install playwright` and then press Enter.
+
+7. After the installation of Playwright is complete, type `playwright install` followed by Enter to download the required browser binaries.
+
+8. Inside this folder you will find another folder called `pics_to_upload`. This is where you should place the pictures you want to use for your LinkedIn profile. Make sure these pictures are in either .jpg or .png format.
 
 ## Running the Scripts
 
@@ -60,6 +60,6 @@ If you run into any issues while setting up or running the scripts, please check
 
 2. Make sure the `daily_pic_update.py` and `update_profile_pic.py` scripts are in the same folder and that you've correctly navigated to this folder in Terminal before trying to run them.
 
-3. Make sure your `pics_to_upload` folder contains at least one .jpg or .png picture. 
+3. Make sure your `pics_to_upload` folder contains at least one .jpg or .png picture.
 
 Enjoy your daily fresh LinkedIn profile pictures!
